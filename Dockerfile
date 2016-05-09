@@ -4,7 +4,7 @@ FROM datamgtcloud/baseconsul
 MAINTAINER Changbing JI
 
 RUN \
-  mkdir ui
+  mkdir ui && \
   curl -s https://releases.hashicorp.com/consul/0.6.4/consul_0.6.4_web_ui.zip -o /opt/datamgt/home/util/consul_ui/ui.zip && \
   cd /opt/datamgt/home/util/consul_ui && \
   unzip ui.zip && \
