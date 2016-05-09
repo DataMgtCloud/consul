@@ -1,0 +1,7 @@
+{
+  "server": true,
+  "client_addr": "0.0.0.0",
+  "leave_on_terminate": true,
+  "rejoin_after_leave": true,
+  "ui_dir": "/opt/datamgt/home/util/consul_ui"
+}
