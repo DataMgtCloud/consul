@@ -19,3 +19,5 @@ RUN \
   ln -s /data/consul /opt/datamgt/config/srv/consul
 
 EXPOSE 53/udp 53 8300 8302 8302/udp 8400 8500
+
+CMD ["/sbin/boot"]
